@@ -8,6 +8,7 @@ use App\Models\Reservation;
 use App\Models\Ticket;
 use Illuminate\Contracts\Queue\ShouldBeUnique;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\DB;
 
 class ProcessTicketPayment implements ShouldQueue, ShouldBeUnique
 {
